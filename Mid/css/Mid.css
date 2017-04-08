@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ↑↑↑ css reset ↑↑↑*/
+
+body{
+  font-family: 微軟正黑體;
+}
+img{
+  max-width: 100%;
+}
+.wrap{
+  width: 1000px;
+  margin: 0 auto;
+}
+.header{
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+  
+}
+.logo{
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 5px;
+  float: left;
+}
+.social-button{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 20px; 
+  float: right;
+}
+.social-button a{
+  padding: 3px;
+  color: #F93390;
+  text-decoration: none;
+}
+.social-button a:hover{
+  color: #3C25B8;
+}
+.nav-menu{
+  padding-top: 70px;
+  padding-left: 320px;
+
+}
+.nav-menu li{
+  text-align: center;
+}
+.nav-menu li a{
+  display: block;
+  float: left;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #F93390;
+  text-decoration: none;
+}
+.nav-menu li a:hover{
+  color: #FFF;
+  background: #F93390;
+}
+.cover{
+  padding: 27px;
+}
+.cover img{
+  display: block;
+  margin: 0 auto;
+}
+.data-area img{
+  width: 61px;
+  height: 56px;
+}
+.news{
+  width: 45%;
+  padding-left: 30px;
+  display: block;
+  float: left;
+}
+.news-title h2{
+  font-size: 30px;
+  font-style: bold;
+  padding-bottom: 15px;
+}
+.news-content li{
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+.news-content a{
+  text-decoration: none;
+  font-family: fantasy;
+  color: #F93390;
+}
+.news-content a:hover{
+  color: #FBA8C3;
+}
+.news-more a{
+  float: right;
+  text-decoration: none;
+  color: #F93390;
+  font-size: 25px;
+  padding-right: 90px;
+  padding-top: 10px;
+}
+.news-more a:hover{
+  color: #F787AF;
+}
+.contact{
+  margin-left: 70px;
+  width: 45%;
+  display: block;
+  float: left;
+}
+.contact-title h2{
+  font-size: 30px;
+  font-style: bold;
+  padding-bottom: 15px;
+}
+.contact-content li{
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+.contact-more{
+  padding-top: 10px;
+  padding-left: 90px;
+}
+.contact-more a{
+  text-decoration: none;
+  color: #871111;
+  font-size: 25px;
+  font-style: bold;
+}
+.contact-more a:hover{
+  color: #C3A995;
+}
+.clear{
+  clear: both;
+}
+.footer{
+  margin: 30px;
+  text-align: center;
+}
+.footer p{
+  padding-top: 20px;
+}
