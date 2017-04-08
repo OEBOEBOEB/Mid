@@ -183,6 +183,114 @@ img{
 .clear{
   clear: both;
 }
+.slide-may{
+  padding: 27px;
+}
+.concert{
+  width: 100%;
+}
+.concert-title{
+  width: 25%;
+  height: 700px;
+  padding-left: 50px;
+  float: left;
+}
+.concert-title i{
+  color: #F93390;
+}
+.concert-title h2{
+  font-size: 30px;
+  color: #3C25B8;
+}
+.concert-content{
+  width: 75%;
+}
+.MD{
+  width: 25%;
+  height: 300px;
+  margin: 10px;
+  background: #DCDCDC;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.MD-img{
+  width: 75%;
+  position: absolute;
+  top: 30px;
+  left: 27px;
+  z-index: 2;
+}
+.MD h3{
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  font-style: bold;
+
+}
+.ORO{
+  width: 25%;
+  height: 300px;
+  margin: 10px;
+  background: #DCDCDC;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.ORO-img{
+  width: 75%;
+  position: absolute;
+  top: 30px;
+  left: 27px;
+  z-index: 2;
+}
+.ORO h3{
+  position: absolute;
+  top: 150px;
+  left: 48px;
+}
+.BAP{
+  width: 25%;
+  height: 300px;
+  margin: 10px;
+  background: #DCDCDC;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.BAP-img{
+  width: 75%;
+  position: absolute;
+  top: 30px;
+  left: 27px;
+  z-index: 2;
+}
+.BAP h3{
+  position: absolute;
+  top: 150px;
+  left: 70px;
+}
+.Tiger{
+  width: 25%;
+  height: 300px;
+  margin: 10px;
+  background: #DCDCDC;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.Tiger-img{
+  width: 75%;
+  position: absolute;
+  top: 30px;
+  left: 27px;
+  z-index: 2;
+}
+.Tiger h3{
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  }
 .footer{
   margin: 30px;
   text-align: center;
