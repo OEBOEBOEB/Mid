@@ -183,32 +183,36 @@ img{
 .clear{
   clear: both;
 }
-.slide-may{
+.slide{
   padding: 27px;
 }
-.concert{
+.content{
   width: 100%;
+  margin: 20px;
 }
-.concert-title{
+.content-title{
   width: 25%;
-  height: 700px;
-  padding-left: 50px;
+  height: 500px;
+  padding-top: 15px;
+  padding-left: 40px;
   float: left;
 }
-.concert-title i{
+.content-title i{
   color: #F93390;
 }
-.concert-title h2{
+.content-title h2{
   font-size: 30px;
   color: #3C25B8;
 }
-.concert-content{
-  width: 75%;
+.concert{
+  width: 60%;
+  float: right;
 }
 .concert-data{
-  width: 25%;
+  width: 40%;
   height: 300px;
   margin: 10px;
+  padding-left: 15px;
   background: #DCDCDC;
   float: left;
   position: relative;
@@ -222,9 +226,10 @@ img{
   z-index: 2;
 }
 .concert-data h3{
+  font-size: 25px;
   position: absolute;
-  top: 150px;
-  left: 70px;
+  top: 170px;
+  left: 45px;
   font-style: bold;
 
 }
