@@ -185,14 +185,17 @@ img{
 .slide{
   padding: 0px 27px 27px 27px;
 }
+.slide img{
+  width: 950px;
+  height: 300px;
+}
 .content{
   width: 100%;
   margin: 20px;
 }
 .content-title{
-  width: 25%;
   height: 500px;
-  padding-left: 40px;
+  padding-left: 20px;
   float: left;
 }
 .content-title h2 i{
@@ -210,10 +213,11 @@ img{
   padding-right: 0px;
 }
 .list-class li{
-  border: 2px solid #3C25B8;
+  border: 5px solid #3C25B8;
+  padding-bottom: 5px;
 }
 .list-class h3{
-  padding-top: 3px;
+  padding-top: 20px;
   padding-left: 10px;
   font-size: 25px;
 }
@@ -238,10 +242,10 @@ img{
   background: #00A0E9;
 }
 .intro{
-  width: 60%;
+  width: 65%;
   float: right;
-  margin: 0 auto;
-}
+  padding-right: 30px;
+  }
 .intro-title h2{
   font-weight: bold;
   color: #3C25B8;
@@ -249,7 +253,7 @@ img{
   margin-bottom: 20px;
 }
 .intro-content{
-  width: 500px;
+  width: 93%;
   margin-bottom: 20px;
   padding: 15px;
   font-size: 20px;
@@ -260,8 +264,8 @@ img{
   width: 100%;
 }
 .class-block{
-  width: 25%;
-  height: 320px;
+  width: 30%;
+  height: 420px;
   margin: 10px;
   background: #DCDCDC;
   float: left;
@@ -274,7 +278,7 @@ img{
 .class-block img{
   width: 100px;
   height: 100px;
-  padding-left: 25px;
+  padding-left: 45px;
 }
 .class-block p{
   padding: 5px;
@@ -301,6 +305,11 @@ img{
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+.class-block p{
+  line-height: 30px;
+}
+
 .lesson-title{
   font-weight: bold;
   color: #3C25B8;
