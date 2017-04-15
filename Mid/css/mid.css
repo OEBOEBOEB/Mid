@@ -508,7 +508,6 @@ img{
   margin-bottom: 10px;
 }
 .button-rate{
-  widows: 100px;
   margin-top: 20px;
   padding-left: 450px;
   float: left;
@@ -517,13 +516,29 @@ img{
   padding: 4px 0px 4px 0px;
   font-size: 25px;
   font-weight: bold;
-  border: 2px #000 solid;
+  text-align: center;
+  border: 3px #F366A0 solid;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all  0.4s linear;
+  transition: all  0.4s linear;
+  display: inline-block;
+}
+.button-rate p:hover{
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 .button-rate a{
   text-decoration: none;
-  color: #000;
+  color: #3C25B8;
 }
+
 .button-rate a:hover{
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
   color: #FFF;
   background: #F366A0;
 }
