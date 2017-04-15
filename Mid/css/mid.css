@@ -574,15 +574,12 @@ img{
   padding-top: 5px;
   font-size: 27px;
 }
-.rate-own p a{
-  
-}
-.rate-own p a:hover{
+.rate-own a:hover{
   color: #F93390;
-  -webkit-transition: all 0.4s linear;
-  -moz-transition: all 0.4s linear;
-  -o-transition: all  0.4s linear;
-  transition: all  0.4s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all  0.3s linear;
+  transition: all  0.3s linear;
 }
 .text{
   border: 1px #FBA8C3 solid;
