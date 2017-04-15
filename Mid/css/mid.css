@@ -512,35 +512,29 @@ img{
   padding-left: 450px;
   float: left;
 }
-.button-rate p{
+.button-rate a{
   padding: 4px 0px 4px 0px;
   font-size: 25px;
   font-weight: bold;
-  text-align: center;
+  text-align: center; 
   border: 3px #F366A0 solid;
   border-radius: 5px;
+  text-decoration: none;
+  color: #3C25B8;
   -webkit-transition: all 0.4s linear;
   -moz-transition: all 0.4s linear;
   -o-transition: all  0.4s linear;
   transition: all  0.4s linear;
   display: inline-block;
 }
-.button-rate p:hover{
+
+.button-rate a:hover{
+  color: #FFF;
+  background: #F366A0;
   -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   transform: rotate(360deg);
-}
-.button-rate a{
-  text-decoration: none;
-  color: #3C25B8;
-}
-
-.button-rate a:hover{
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  color: #FFF;
-  background: #F366A0;
 }
 .rate{
   width: 500px;
