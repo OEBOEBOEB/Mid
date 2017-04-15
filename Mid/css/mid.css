@@ -216,6 +216,9 @@ img{
   border: 5px solid #3C25B8;
   padding-bottom: 5px;
 }
+.list-class li:hover{
+  background: #00A0E9;
+}
 .list-class h3{
   padding-top: 20px;
   padding-left: 10px;
@@ -239,7 +242,6 @@ img{
 }
 .list-class a:hover{
   color: #FFF;
-  background: #00A0E9;
 }
 .intro{
   width: 65%;
