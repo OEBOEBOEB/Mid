@@ -597,7 +597,6 @@ img{
 .adv-title h3{
   font-weight: bold;
   font-size: 25px;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 .adv-data-r{
@@ -606,6 +605,7 @@ img{
   background: #FCDBDB;
   padding: 18px;
   line-height: 30px;
+  box-shadow: 3px 3px 4px 0px;
 }
 .adv-data-y{
   width: 80%;
@@ -614,6 +614,7 @@ img{
   padding: 18px;
   padding-top: 18px;
   line-height: 30px;
+  box-shadow: 3px 3px 4px 0px;
 }
 .adv-data-g{
   width: 80%;
@@ -622,6 +623,7 @@ img{
   padding: 18px;
   padding-top: 18px;
   line-height: 30px;
+  box-shadow: 3px 3px 4px 0px;
 }
 .adv-data-b{
   width: 80%;
@@ -630,6 +632,7 @@ img{
   padding: 18px;
   padding-top: 18px;
   line-height: 30px;
+  box-shadow: 3px 3px 4px 0px;
 }
 .adv-data-p{
   width: 80%;
@@ -637,6 +640,7 @@ img{
   background: #EDCDFA;
   padding: 18px;
   line-height: 30px;
+  box-shadow: 3px 3px 4px 0px;
 }
 .concert{
   width: 60%;
@@ -672,4 +676,11 @@ img{
 }
 .footer p{
   padding-top: 20px;
+}
+
+.tt{
+	margin-top: 50px;
+}
+.class-block{
+	box-shadow: 3px 3px 4px 0px;
 }
