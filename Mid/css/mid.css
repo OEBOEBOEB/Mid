@@ -602,41 +602,41 @@ img{
 }
 .adv-data-r{
   width: 80%;
-  height: 120px;
+  height: 150px;
   background: #FCDBDB;
   padding: 18px;
-  line-height: 20px;
+  line-height: 30px;
 }
 .adv-data-y{
   width: 80%;
-  height: 100px;
+  height: 120px;
   background: #F2E2C3;
   padding: 18px;
-  padding-top: 38px;
-  line-height: 20px;
+  padding-top: 18px;
+  line-height: 30px;
 }
 .adv-data-g{
   width: 80%;
-  height: 90px;  
+  height: 100px;  
   background: #CBF9E1;
   padding: 18px;
-  padding-top: 48px;
-  line-height: 20px;
+  padding-top: 18px;
+  line-height: 30px;
 }
 .adv-data-b{
   width: 80%;
   height: 105px;
   background: #9EE5F2;
   padding: 18px;
-  padding-top: 33px;
-  line-height: 20px;
+  padding-top: 18px;
+  line-height: 30px;
 }
 .adv-data-p{
   width: 80%;
-  height: 120px;
+  height: 150px;
   background: #EDCDFA;
   padding: 18px;
-  line-height: 20px;
+  line-height: 30px;
 }
 .concert{
   width: 60%;
