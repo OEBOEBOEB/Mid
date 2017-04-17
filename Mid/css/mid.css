@@ -521,10 +521,10 @@ img{
   border-radius: 5px;
   text-decoration: none;
   color: #3C25B8;
-  -webkit-transition: all 0.4s linear;
-  -moz-transition: all 0.4s linear;
-  -o-transition: all  0.4s linear;
-  transition: all  0.4s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all  0.3s linear;
+  transition: all  0.3s linear;
   display: inline-block;
 }
 
@@ -662,6 +662,9 @@ img{
   float: left;
   position: relative;
   z-index: 1;
+}
+.concert-data:hover{
+  box-shadow: 2px 2px 2px 0px;
 }
 .data-pic{
   width: 75%;
