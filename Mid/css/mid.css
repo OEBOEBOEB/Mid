@@ -218,6 +218,7 @@ img{
 }
 .list-class li:hover{
   background: #00A0E9;
+  transition: 0.8s;
 }
 .list-class h3{
   padding-top: 20px;
@@ -234,6 +235,7 @@ img{
 }
 .list-class i:hover{
   color: #FFF;
+  transition: 0.8s;
 }
 .list-class a{
   display: block;
@@ -242,6 +244,7 @@ img{
 }
 .list-class a:hover{
   color: #FFF;
+  transition: 0.8s;
 }
 .intro{
   width: 65%;
