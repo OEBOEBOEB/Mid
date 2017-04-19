@@ -851,4 +851,33 @@ img{
   font-size: 20px;
   line-height: 30px;
 }
-
+.box1{
+  width: 1000px;
+  height: 500px;
+}
+.box2{
+  width: 1000px;
+  height: 500px;
+}
+.box3{
+  width: 1000px;
+  height: 500px;
+}
+.box4{
+  width: 1000px;
+  height: 500px;
+}
+.box5{
+  width: 1000px;
+  height: 500px;
+}
+.box6{
+  width: 1000px;
+  height: 500px;
+}
+#colorless{
+  opacity: 1.0;
+}
+#colorless:hover{
+  opacity: 0.5;
+}
